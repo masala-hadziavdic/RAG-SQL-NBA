@@ -1,0 +1,69 @@
+# Environnement et secrets
+
+.env
+*.env
+!.env.example
+
+# Environnements virtuels
+
+.venv/
+venv/
+env/
+
+# Python
+
+__pycache__/
+*.py[cod]
+*.py[cod]
+*.pyo
+*.pyd
+
+# Tests et caches
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Streamlit
+
+.streamlit/secrets.toml
+
+# Logfire
+
+logfire/
+
+# Résultats temporaires
+
+evaluation_results/
+
+# Fichiers système
+
+.DS_Store
+Thumbs.db
+
+# IDE
+
+.vscode/
+.idea/
+
+
+# Fichiers personnels / de travail
+regular+NBA+(2).xlsx
+questions_mistral.py
+inspect_excel.py
+Untitled.ipynb
+evaluate_ragas_copy.txt
+
+# Fichier de travail dans database
+database/inspect_nba_mapping.py
+
+# Dans data : ignorer tout sauf evaluation_results
+data/*
+!data/evaluation_results/
+!data/evaluation_results/**

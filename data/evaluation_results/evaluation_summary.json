@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-08-27T19:20:47.495518",
+  "mode": "hybrid",
+  "model": "mistral-small-latest",
+  "search_k": 5,
+  "num_questions": 17,
+  "pipeline_distribution": {
+    "SQL": 13,
+    "RAG": 4
+  },
+  "metrics": [
+    "faithfulness",
+    "answer_relevancy",
+    "context_precision",
+    "context_recall"
+  ],
+  "aggregate_scores": {
+    "RAG": {
+      "faithfulness": null,
+      "answer_relevancy": 0.9121,
+      "context_precision": null,
+      "context_recall": null
+    },
+    "SQL": {
+      "faithfulness": 0.8889,
+      "answer_relevancy": 0.8191,
+      "context_precision": 0.9167,
+      "context_recall": 0.75
+    },
+    "all": {
+      "faithfulness": 0.8889,
+      "answer_relevancy": 0.841,
+      "context_precision": 0.9167,
+      "context_recall": 0.75
+    }
+  }
+}

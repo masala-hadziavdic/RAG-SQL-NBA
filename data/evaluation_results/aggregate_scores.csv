@@ -1,0 +1,4 @@
+﻿category,faithfulness,answer_relevancy,context_precision,context_recall
+RAG,,0.9121,,
+SQL,0.8889,0.8191,0.9167,0.75
+all,0.8889,0.841,0.9167,0.75
